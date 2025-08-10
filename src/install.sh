@@ -45,7 +45,7 @@ chmod +x install_checkpoints.sh
 echo " "
 echo " ---------------- extensions installed "
 echo " "
-./install_checkpoints.sh
+#./install_checkpoints.sh
 #./install_checkpoints_big.sh
 
 echo " "
@@ -104,4 +104,3 @@ echo " "
 echo " ---------------- setup completed "
 echo " "
 echo -e " ---------------- For health check go to this address $(curl -s httpbin.org/ip | jq -r .origin):8188 in your browser"
-
